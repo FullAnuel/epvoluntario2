@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .cart-icon {
+    height: 30px;
+    margin-left: 10px;
+}
+
+nav .nav-link {
+    font-weight: bold;
+}
+
+nav .nav-link:hover {
+    border-bottom: 2px solid #ffffff;
+    transition: border-bottom 0.3s;
+}
+
+.carousel-item img {
+    filter: brightness(80%);
+    transition: filter 0.3s;
+}
+
+.carousel-item img:hover {
+    filter: brightness(100%);
+}
+
+.card-title {
+    font-family: 'Georgia', serif;
+    color: #007bff;
+}
+
+.card-text {
+    font-family: 'Verdana', sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.btn-add-to-cart {
+    transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #0056b3;
+}
